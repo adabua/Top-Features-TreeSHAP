@@ -24,7 +24,7 @@
 
 ## What It Does
 
-`cluster_shap_rf.py` trains a **one-vs-all binary Random Forest** to separate a chosen cluster from all other clusters, then runs **TreeSHAP** to rank every feature by how much it influences that prediction. The result is the **top-K feature names** (default: 3) that most strongly characterise the target cluster.
+`top-cluster-features-selector-using-treeshap.py` trains a **one-vs-all binary Random Forest** to separate a chosen cluster from all other clusters, then runs **TreeSHAP** to rank every feature by how much it influences that prediction. The result is the **top-K feature names** (default: 3) that most strongly characterise the target cluster.
 
 ```
 Your CSV  →  Binary RF (cluster N vs. rest)  →  TreeSHAP  →  ["feat_a", "feat_b", "feat_c"]
