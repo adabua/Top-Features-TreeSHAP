@@ -493,6 +493,4 @@ top3    = get_top_features(sample, cluster_id=0)
 
 ---
 
-## License
 
-MIT — see [LICENSE](LICENSE) for details.
